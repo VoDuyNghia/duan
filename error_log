@@ -1,0 +1,6 @@
+[12-Jul-2019 09:11:09 asia/ho_chi_minh] PHP Warning:  Unsupported declare 'strict_types' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 8
+[12-Jul-2019 09:11:09 asia/ho_chi_minh] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 19
+[12-Jul-2019 09:11:43 asia/ho_chi_minh] PHP Warning:  Unsupported declare 'strict_types' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 8
+[12-Jul-2019 09:11:43 asia/ho_chi_minh] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 19
+[12-Jul-2019 09:15:43 asia/ho_chi_minh] PHP Warning:  Unsupported declare 'strict_types' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 8
+[12-Jul-2019 09:15:43 asia/ho_chi_minh] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/danangre/public_html/vendor/zendframework/zend-diactoros/src/functions/create_uploaded_file.php on line 19

@@ -1,0 +1,57 @@
+.animation {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 43px;
+  left: 50%;
+  width:100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.animation:hover .image {
+  opacity: 0.3;
+}
+
+.animation:hover .middle {
+  opacity: 1;
+}
+
+.animation:hover .bottom {
+  opacity: 1;
+}
+
+.text {
+  background-color: #000000cf;
+  padding: 16px 32px;
+}
+
+.text a h5 {
+    color: white;
+    font-weight:bold;
+}
+
+.bottom {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  width:100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
