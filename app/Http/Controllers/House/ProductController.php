@@ -47,7 +47,7 @@ class ProductController extends Controller
             ];
             Mail::send('mail', $data_mail , function($message) use ($data){
                 $message->from('congthongtindue@gmail.com','Khách Hàng Liên Lạc');
-                $message->to('nghia97dn@gmail.com');
+                $message->to('danangresidence@gmail.com');
                 $message->subject("Email khách hàng: ".$data['email']);
             });
     		$request->session()->flash('success','Bạn đã gửi tin thành công ! Chúng tôi sẽ trả lời trong thời gian sớm nhất');

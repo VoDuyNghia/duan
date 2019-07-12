@@ -41,7 +41,7 @@ class ContactController extends Controller
                 ];
                 Mail::send('mail', $data_mail , function($message) use ($data){
                     $message->from('congthongtindue@gmail.com','Khách Hàng Liên Lạc');
-                    $message->to('nghia97dn@gmail.com');
+                    $message->to('danangresidence@gmail.com');
                     $message->subject("Email khách hàng: ".$data['email']);
                 });
                 DB::commit();

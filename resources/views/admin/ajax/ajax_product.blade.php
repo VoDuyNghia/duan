@@ -47,11 +47,12 @@
     </tbody>
     <tfoot>
     <tr>
-      <th class="text-center"> ID </th>
+      <th class="text-center">ID</th>
       <th class="text-center">MÃ SẢN PHẨM</th>
-      <th class="text-center"> Tên bài viết (EN) </th>
-      <th class="text-center"> Hình ảnh </th>
-      <th class="text-center"> Trạng Thái</th>
+      <th class="text-center">TÊN BÀI VIẾT (EN)</th>
+      <th class="text-center">HÌNH ẢNH</th>
+      <th class="text-center">DANH MỤC</th>
+      <th class="text-center">TRẠNG THÁI</th>
       <th></th>
     </tr>
     </tfoot>
